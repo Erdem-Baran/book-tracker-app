@@ -1,0 +1,136 @@
+*{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: aliceblue !important;
+}
+#add{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.book_title{
+    color: #fff;
+    text-align: center;
+}
+.card-group{
+    margin-top: 30%;
+    display: grid !important; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.author{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    text-align: center;
+}
+.card{
+    padding: 30px;
+    box-shadow: 4px 5px 4px 5px rgb(175, 163, 71);
+    border: 1px solid rgb(217, 255, 0) !important;
+    border-radius: 20px !important;
+    background-color: black !important;
+    color: #fff;
+}
+.bi {
+  display: flex;
+  float: left;
+  align-items: center; 
+  gap: 20px;
+}
+.read {
+  font-size: 50px;
+  color: rgb(41, 160, 4);
+}
+.unread {
+  font-size: 50px;
+  color: rgb(236, 30, 15);
+}
+.inactive{
+    display: none !important;
+}
+.active{
+    display: flex;
+}
+.close{
+    font-size: 40px;
+    color: #ff8383;
+    display: flex;
+    justify-content: right;
+}
+.close:hover{
+    font-size: 43px;
+    color: #ff0000;
+    transition: 200ms;
+}
+
+@media (max-width: 1200px) {
+    .card-group {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 35%;
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    .card-group {
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 45%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+        width: 90%;
+        text-align: center;
+    }
+
+    #add {
+        top: 25%;
+        width: 80%;
+    }
+
+    .card-group {
+        grid-template-columns: 1fr;
+        margin-top: 55%;
+        padding: 0 15px; 
+    }
+
+    .card {
+        padding: 20px;
+        margin: 10px 0;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+        width: 90%;
+        text-align: center;
+    }
+
+    #add {
+        top: 29%;
+        width: 80%;
+    }
+
+    .card-group {
+        grid-template-columns: 1fr;
+        margin-top: 78%;
+        padding: 0 35px; 
+    }
+
+    .card {
+        padding: 10px;
+        margin: 10px 0;
+    }
+}
