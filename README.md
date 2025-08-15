@@ -16,14 +16,6 @@ Tek Tıkla Silme - Artık istemediğiniz kitapları kolayca kaldırın
 Uygulamayı hemen deneyin:
 https://pr-books.netlify.app
 
-⚡ Hızlı Kurulum
-Projeyi yerel makinenizde çalıştırmak için:
-
-bash
-git clone https://github.com/sizin-kullanici-adiniz/book-tracker-app.git
-cd book-tracker-app
-# index.html dosyasını tarayıcınızda açın
-
 🧩 Kullanım Kılavuzu
 Kitap adını ve yazarını ilgili alanlara girin
 
